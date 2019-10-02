@@ -1010,8 +1010,18 @@
         <property name="styleSheet">
          <string notr="true"/>
         </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
         <property name="showIcon" stdset="0">
          <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI21,subsystem=rf</string>
+         </stringlist>
         </property>
        </widget>
       </item>
@@ -1023,8 +1033,18 @@
         <property name="styleSheet">
          <string notr="true"/>
         </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
         <property name="showIcon" stdset="0">
          <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI22,subsystem=rf</string>
+         </stringlist>
         </property>
        </widget>
       </item>
