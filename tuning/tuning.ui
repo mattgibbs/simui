@@ -11,11 +11,16 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Tuning Display</string>
   </property>
   <property name="styleSheet">
    <string notr="true">PyDMLabel#latestValueLabel {
 	font-size: 42px;
+	font-weight: bold;
+}
+
+QLabel#encouragementLabel {
+	font-size: 24px;
 	font-weight: bold;
 }</string>
   </property>
@@ -114,7 +119,7 @@
     </widget>
    </item>
    <item row="0" column="0">
-    <widget class="PyDMWaveformPlot" name="PyDMWaveformPlot">
+    <widget class="PyDMWaveformPlot" name="gdetPlot">
      <property name="toolTip">
       <string/>
      </property>
@@ -140,6 +145,9 @@
        <green>128</green>
        <blue>128</blue>
       </color>
+     </property>
+     <property name="maxRedrawRate" stdset="0">
+      <number>24</number>
      </property>
      <property name="curves">
       <stringlist>
@@ -192,34 +200,6 @@
      </layout>
     </widget>
    </item>
-   <item row="0" column="1">
-    <widget class="PyDMLabel" name="latestValueLabel">
-     <property name="minimumSize">
-      <size>
-       <width>100</width>
-       <height>0</height>
-      </size>
-     </property>
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="precision" stdset="0">
-      <number>2</number>
-     </property>
-     <property name="precisionFromPV" stdset="0">
-      <bool>false</bool>
-     </property>
-     <property name="alarmSensitiveBorder" stdset="0">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string/>
-     </property>
-     <property name="displayFormat" stdset="0">
-      <enum>PyDMLabel::Decimal</enum>
-     </property>
-    </widget>
-   </item>
    <item row="5" column="0">
     <widget class="QWidget" name="widget_4" native="true">
      <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -263,6 +243,85 @@
          <number>201</number>
         </property>
        </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QWidget" name="widget_5" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMLabel" name="latestValueLabel">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="precision" stdset="0">
+         <number>2</number>
+        </property>
+        <property name="precisionFromPV" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="channel" stdset="0">
+         <string/>
+        </property>
+        <property name="displayFormat" stdset="0">
+         <enum>PyDMLabel::Decimal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="encouragementLabel">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
       </item>
      </layout>
     </widget>
