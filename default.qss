@@ -1,0 +1,33 @@
+
+/* For labels and line edits, we make sure the background is dark so that the text is readable even when the
+color is very bright (like the yellow "MINOR" alarm) */
+PyDMLineEdit[alarmSensitiveContent="true"],
+PyDMLabel[alarmSensitiveContent="true"] {
+    background-color: #464646;
+}
+
+PyDMLabel[alarmSensitiveContent="true"][alarmSeverity="0"],
+PyDMLineEdit[alarmSensitiveContent="true"][alarmSeverity="0"] {
+    color: #00EB00;
+}
+
+PyDMLabel[alarmSensitiveContent="true"][alarmSeverity="1"],
+PyDMLineEdit[alarmSensitiveContent="true"][alarmSeverity="1"] {
+    color: #EBEB00;
+}
+
+PyDMLabel[alarmSensitiveContent="true"][alarmSeverity="2"],
+PyDMLineEdit[alarmSensitiveContent="true"][alarmSeverity="2"] {
+    color: #FF0000;
+}
+
+PyDMLabel[alarmSensitiveContent="true"][alarmSeverity="3"],
+PyDMLineEdit[alarmSensitiveContent="true"][alarmSeverity="3"] {
+    color: #EB00EB;
+}
+
+PyDMLabel[alarmSensitiveContent="true"][alarmSeverity="4"],
+PyDMLineEdit[alarmSensitiveContent="true"][alarmSeverity="4"] {
+    color: #FFFFFF;
+}
+
