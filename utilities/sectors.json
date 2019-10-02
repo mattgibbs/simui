@@ -1,0 +1,17 @@
+[
+    {"name": "IN20", "start_marker": "CATHODE", "end_marker": "BC1BEG"},
+    {"name": "LI21", "start_marker": "BC1BEG", "end_marker": "LI21END"},
+    {"name": "LI22", "start_marker": "LI22BEG", "end_marker": "LI22END"},
+    {"name": "LI23", "start_marker": "LI23BEG", "end_marker": "LI23END"},
+    {"name": "LI24", "start_marker": "LI24BEG", "end_marker": "L3BEG"},
+    {"name": "LI25", "start_marker": "LI25BEG", "end_marker": "LI25END"},
+    {"name": "LI26", "start_marker": "LI26BEG", "end_marker": "LI26END"},
+    {"name": "LI27", "start_marker": "LI27BEG", "end_marker": "LI27END"},
+    {"name": "LI28", "start_marker": "LI28BEG", "end_marker": "LI28END"},
+    {"name": "LI29", "start_marker": "LI29BEG", "end_marker": "LI29END"},
+    {"name": "LI30", "start_marker": "LI30BEG", "end_marker": "LI30END"},
+    {"name": "BSY", "start_marker": "BEGBSY", "end_marker": "ENDBSY"},
+    {"name": "LTU", "start_marker": "ENDBSY", "end_marker": "UNDSTART"},
+    {"name": "UND", "start_marker": "UNDSTART", "end_marker": "UNDTERM"},
+    {"name": "DMP", "start_marker": "UNDTERM", "end_marker": "DUMPFACE"}
+]
