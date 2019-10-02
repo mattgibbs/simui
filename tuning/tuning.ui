@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TuningForm</class>
+ <widget class="QWidget" name="TuningForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>739</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">PyDMLabel#latestValueLabel {
+	font-size: 42px;
+	font-weight: bold;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Quad 620</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMSlider" name="PyDMSlider">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="precisionFromPV" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveContent" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="channel" stdset="0">
+         <string>ca://QUAD:LTUH:620:BCTRL</string>
+        </property>
+        <property name="orientation" stdset="0">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="userDefinedLimits" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="userMinimum" stdset="0">
+         <double>-33.000000000000000</double>
+        </property>
+        <property name="userMaximum" stdset="0">
+         <double>-22.000000000000000</double>
+        </property>
+        <property name="num_steps" stdset="0">
+         <number>201</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QWidget" name="widget_3" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Quad 660</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMSlider" name="PyDMSlider_3">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="precisionFromPV" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveContent" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="channel" stdset="0">
+         <string>ca://QUAD:LTUH:660:BCTRL</string>
+        </property>
+        <property name="orientation" stdset="0">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="userDefinedLimits" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="userMinimum" stdset="0">
+         <double>-52.000000000000000</double>
+        </property>
+        <property name="userMaximum" stdset="0">
+         <double>-36.000000000000000</double>
+        </property>
+        <property name="num_steps" stdset="0">
+         <number>201</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="knobsContainer" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout"/>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="PyDMWaveformPlot" name="PyDMWaveformPlot">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="viewportUpdateMode">
+      <enum>QGraphicsView::BoundingRectViewportUpdate</enum>
+     </property>
+     <property name="optimizationFlags">
+      <set>QGraphicsView::DontAdjustForAntialiasing|QGraphicsView::DontClipPainter</set>
+     </property>
+     <property name="showYGrid">
+      <bool>true</bool>
+     </property>
+     <property name="backgroundColor">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="axisColor">
+      <color>
+       <red>128</red>
+       <green>128</green>
+       <blue>128</blue>
+      </color>
+     </property>
+     <property name="curves">
+      <stringlist>
+       <string>{&quot;y_channel&quot;: &quot;ca://GDET:FEE1:241:ENRCHSTBR&quot;, &quot;x_channel&quot;: null, &quot;name&quot;: &quot;FEL Pulse Intensity (mJ)&quot;, &quot;color&quot;: &quot;#1832c7&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10, &quot;redraw_mode&quot;: 2}</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Quad 640</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMSlider" name="PyDMSlider_2">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="precisionFromPV" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveContent" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="channel" stdset="0">
+         <string>ca://QUAD:LTUH:640:BCTRL</string>
+        </property>
+        <property name="orientation" stdset="0">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="userDefinedLimits" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="userMinimum" stdset="0">
+         <double>22.000000000000000</double>
+        </property>
+        <property name="userMaximum" stdset="0">
+         <double>42.000000000000000</double>
+        </property>
+        <property name="num_steps" stdset="0">
+         <number>201</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="PyDMLabel" name="latestValueLabel">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="precision" stdset="0">
+      <number>2</number>
+     </property>
+     <property name="precisionFromPV" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="alarmSensitiveBorder" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="channel" stdset="0">
+      <string/>
+     </property>
+     <property name="displayFormat" stdset="0">
+      <enum>PyDMLabel::Decimal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QWidget" name="widget_4" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Quad 680</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMSlider" name="PyDMSlider_4">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="precisionFromPV" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveContent" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="channel" stdset="0">
+         <string>ca://QUAD:LTUH:680:BCTRL</string>
+        </property>
+        <property name="orientation" stdset="0">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="tickPosition" stdset="0">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+        <property name="userDefinedLimits" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="userMinimum" stdset="0">
+         <double>23.000000000000000</double>
+        </property>
+        <property name="userMaximum" stdset="0">
+         <double>42.000000000000000</double>
+        </property>
+        <property name="num_steps" stdset="0">
+         <number>201</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMSlider</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.slider</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMWaveformPlot</class>
+   <extends>QGraphicsView</extends>
+   <header>pydm.widgets.waveformplot</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
