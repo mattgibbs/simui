@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>941</width>
-    <height>219</height>
+    <width>1392</width>
+    <height>241</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -289,8 +289,18 @@
         <property name="styleSheet">
          <string notr="true"/>
         </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
         <property name="showIcon" stdset="0">
          <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI22,subsystem=bpms</string>
+         </stringlist>
         </property>
        </widget>
       </item>
@@ -466,29 +476,6 @@
         </property>
        </widget>
       </item>
-      <item row="2" column="1">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_2">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI21</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
       <item row="2" column="2">
        <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_6">
         <property name="toolTip">
@@ -499,7 +486,7 @@
         </property>
         <property name="filenames" stdset="0">
          <stringlist>
-          <string>magnets/area_magnets.ui</string>
+          <string>area_tabs.py</string>
          </stringlist>
         </property>
         <property name="showIcon" stdset="0">
@@ -507,283 +494,7 @@
         </property>
         <property name="macros" stdset="0">
          <stringlist>
-          <string>area=LI22</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="3">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_10">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI23</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="4">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_14">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI24</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="5">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_18">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI25</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="6">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_22">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI26</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="7">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_26">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI27</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="8">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_30">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI28</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="9">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_34">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI29</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="10">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_38">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI30</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="11">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_42">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=BSYH</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="12">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_46">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LTU1</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="13">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_50">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=UND1</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="14">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_54">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>magnets/area_magnets.ui</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=DMP1</string>
+          <string>area=LI22,subsystem=magnets</string>
          </stringlist>
         </property>
        </widget>
@@ -1201,6 +912,305 @@
         </property>
         <property name="showIcon" stdset="0">
          <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_59">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI21,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_10">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI23,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_14">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI24,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="5">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_18">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI25,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_22">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI26,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_26">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI27,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="8">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_30">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI28,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="9">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_34">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI29,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="10">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_38">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI30,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="11">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_42">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=BSY,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="12">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_46">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LTU,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="13">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_50">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=UND,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="14">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_54">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=DMP,subsystem=magnets</string>
+         </stringlist>
         </property>
        </widget>
       </item>
