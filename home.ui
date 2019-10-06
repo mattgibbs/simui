@@ -20,1017 +20,7 @@
       <string>Devices</string>
      </property>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="0" column="1">
-       <widget class="QLabel" name="label_7">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI21</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <widget class="QLabel" name="label_6">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI22</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="3">
-       <widget class="QLabel" name="label_8">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI23</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="4">
-       <widget class="QLabel" name="label_9">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI24</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="5">
-       <widget class="QLabel" name="label_10">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI25</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="6">
-       <widget class="QLabel" name="label_11">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI26</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="7">
-       <widget class="QLabel" name="label_12">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI27</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="8">
-       <widget class="QLabel" name="label_13">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI28</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="9">
-       <widget class="QLabel" name="label_14">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI29</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="10">
-       <widget class="QLabel" name="label_15">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LI30</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="11">
-       <widget class="QLabel" name="label_16">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>BSY</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="12">
-       <widget class="QLabel" name="label_17">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>LTU</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="13">
-       <widget class="QLabel" name="label_18">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>UND</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="14">
-       <widget class="QLabel" name="label_19">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>DMP</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QLabel" name="label_3">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>BPMs</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI21</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_5">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI22,subsystem=bpms</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="3">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_9">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="4">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_13">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="5">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_17">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="6">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_21">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="7">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_25">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="8">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_29">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="9">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_33">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="10">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_37">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="11">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_41">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="12">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_45">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="13">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_49">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="14">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_53">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
-       <widget class="QLabel" name="label_2">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>Magnets</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="2">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_6">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI22,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
-       <widget class="QLabel" name="label_5">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>Collimators</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_3">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="2">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_7">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="3">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_11">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="4">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_15">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="5">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_19">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="6">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_23">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="7">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_27">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="8">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_31">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="9">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_35">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="10">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_39">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="11">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_43">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="12">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_47">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="13">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_51">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="14">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_55">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="0">
-       <widget class="QLabel" name="label_4">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>RF</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="1">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_4">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI21,subsystem=rf</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="2">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_8">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI22,subsystem=rf</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="3">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_12">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="4">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_16">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="5">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_20">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="6">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_24">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="7">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_28">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="8">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_32">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="9">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_36">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="10">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_40">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="11">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_44">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="12">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_48">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="13">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_52">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="14">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_56">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_59">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI21,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="3">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_10">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI23,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="4">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_14">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI24,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="5">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_18">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI25,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="6">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_22">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI26,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="7">
+      <item row="2" column="8">
        <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_26">
         <property name="toolTip">
          <string/>
@@ -1053,99 +43,7 @@
         </property>
        </widget>
       </item>
-      <item row="2" column="8">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_30">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI28,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="9">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_34">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI29,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="10">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_38">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=LI30,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="11">
-       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_42">
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="filenames" stdset="0">
-         <stringlist>
-          <string>area_tabs.py</string>
-         </stringlist>
-        </property>
-        <property name="showIcon" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="macros" stdset="0">
-         <stringlist>
-          <string>area=BSY,subsystem=magnets</string>
-         </stringlist>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="12">
+      <item row="2" column="13">
        <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_46">
         <property name="toolTip">
          <string/>
@@ -1168,7 +66,930 @@
         </property>
        </widget>
       </item>
-      <item row="2" column="13">
+      <item row="0" column="15">
+       <widget class="QLabel" name="label_19">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>DMP</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="10">
+       <widget class="QLabel" name="label_14">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI29</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_13">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="15">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_53">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="15">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_56">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=DMP,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="9">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_30">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI28,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="9">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_31">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_9">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="12">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_44">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=BSY,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="13">
+       <widget class="QLabel" name="label_17">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LTU</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="14">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_51">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_18">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI25,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="7">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_23">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="11">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_39">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_11">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI21</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="9">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_32">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI28,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="14">
+       <widget class="QLabel" name="label_18">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>UND</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="5">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_16">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI24,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="5">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_15">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_22">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI26,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QLabel" name="label_12">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI27</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_5">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI22,subsystem=bpms</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QLabel" name="label_9">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI24</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>BPMs</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI21</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_10">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI23,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="10">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_34">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI29,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="7">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_24">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI26,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="8">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_28">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI27,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="13">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_45">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_8">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI22,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="13">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_47">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI22</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QLabel" name="label_11">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI26</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_59">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI21,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_7">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="6">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_20">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI25,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="11">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_37">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLabel" name="label_10">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI25</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>RF</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="12">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_41">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="13">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_48">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LTU,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="6">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_19">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="15">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_55">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="14">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_49">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="10">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_33">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_6">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI22,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="9">
+       <widget class="QLabel" name="label_13">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI28</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="11">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_40">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI30,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_4">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI21,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_12">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI23,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="14">
        <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_50">
         <property name="toolTip">
          <string/>
@@ -1191,7 +1012,189 @@
         </property>
        </widget>
       </item>
-      <item row="2" column="14">
+      <item row="0" column="12">
+       <widget class="QLabel" name="label_16">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>BSY</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_3">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="9">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_29">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="5">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_14">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI24,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="11">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_38">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI30,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI23</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Collimators</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="8">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_27">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_25">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_21">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="14">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_52">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=UND,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="15">
        <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_54">
         <property name="toolTip">
          <string/>
@@ -1211,6 +1214,219 @@
          <stringlist>
           <string>area=DMP,subsystem=magnets</string>
          </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="10">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_36">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI29,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Magnets</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_17">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="11">
+       <widget class="QLabel" name="label_15">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>LI30</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="12">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_42">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=BSY,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="10">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_35">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="12">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_43">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_60">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=IN20,subsystem=rf</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_61">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_62">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist>
+          <string>area_tabs.py</string>
+         </stringlist>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=IN20,subsystem=magnets</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_2">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="filenames" stdset="0">
+         <stringlist/>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="macros" stdset="0">
+         <stringlist>
+          <string>area=LI21</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_20">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>IN20</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
