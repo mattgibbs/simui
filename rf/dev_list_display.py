@@ -12,13 +12,11 @@ def dev_list(start_marker, end_marker):
     #De-duplicate this list using an ordered dict.
     klystron_dev_list = list(OrderedDict.fromkeys(klystron_dev_list))
     devlist = [{"device": devname} for devname in klystron_dev_list]
-    print(devlist)
     return devlist
 
 class RFDeviceList(Display):
     def __init__(self, parent=None, macros=None, args=[]):
         super(RFDeviceList, self).__init__(parent=parent, macros=macros, args=args)
-        print("Starting RF Device list with: {}".format(macros))
         self.start_marker = macros['start_marker']
         self.end_marker = macros['end_marker']
         self.setup_ui()
