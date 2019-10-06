@@ -34,10 +34,8 @@ class MagnetDeviceList(Display):
     
     @Slot(int)
     def magtype_tab_changed(self, new_tab_index):
-        print("The magnet tab changed!!")
         scroll = self.tab_widget.currentWidget()
         if scroll.widget():
-            print("scroll already has a widget: {}".format(scroll.widget()))
             return
         magtype = self.tab_widget.tabText(new_tab_index)
         tr = PyDMTemplateRepeater()
