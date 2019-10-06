@@ -8,13 +8,11 @@ from qtpy.QtCore import QSize, Slot
 from utilities import model_list
 
 def dev_list(start_marker, end_marker, magtype):
-    print("Getting magnet list.")
     l = model_list.model_list(start_element=start_marker, end_element=end_marker)
     mag_dev_list = [i['device_name'] for i in l if i['device_name'].startswith(magtype)]
     #De-duplicate this list using an ordered dict.
     mag_dev_list = list(OrderedDict.fromkeys(mag_dev_list))
     devlist = [{"device_name": devname} for devname in mag_dev_list]
-    print("Mag list is: {}".format(devlist))
     return devlist
 
 class MagnetDeviceList(Display):
