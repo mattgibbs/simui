@@ -4,7 +4,7 @@ import zmq
 from pydm import Display
 from orbit_view import OrbitView
 from orbit import Orbit
-from magnets import MagnetList
+from steering_magnets import MagnetList
 from qtpy.QtWidgets import QVBoxLayout, QApplication, QProgressBar, QLabel
 from qtpy.QtCore import QTimer, Slot, Qt
 
