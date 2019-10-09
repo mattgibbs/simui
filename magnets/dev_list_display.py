@@ -41,6 +41,12 @@ class MagnetDeviceList(Display):
         tr.data = dev_list(self.start_marker, self.end_marker, magtype)
         scroll.setWidget(tr)
         tr.show()
+        min_width = tr.minimumSizeHint().width()
+        #print(min_width)
+        #scroll_size = scroll.size()
+        #scroll_size.setWidth(min_width)
+        scroll.setMinimumWidth(min_width)
+        #self.tab_widget.
     
     def setup_ui(self):
         self.setLayout(QVBoxLayout())

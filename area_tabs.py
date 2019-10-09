@@ -38,7 +38,8 @@ class AreaTabs(Display):
             return
         top = os.path.dirname(os.path.realpath(__file__))
         emb.filename = os.path.join(top, self.subsystem, "dev_list_display.py")
-        
+        min_width = emb.embedded_widget.minimumSizeHint().width() + 30
+        self.tab_widget.setMinimumWidth(min_width)        
     
     def setup_ui(self):
         self.setLayout(QVBoxLayout())
@@ -46,6 +47,7 @@ class AreaTabs(Display):
         self.titleLabel.setText("{} Displays".format(self.formatted_subsystem()))
         self.layout().addWidget(self.titleLabel)
         self.tab_widget = PyDMTabWidget(self)
+        self.tab_widget.setUsesScrollButtons(False)
         self.layout().addWidget(self.tab_widget)
         top = os.path.dirname(os.path.realpath(__file__))
         with open(os.path.join(top, 'utilities', 'sectors.json')) as f:
