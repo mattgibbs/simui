@@ -20,13 +20,13 @@ class OrbitView(GraphicsLayoutWidget):
         self.ci.layout.setSpacing(0.0)
         self.plotLabel = self.addLabel(text=name, row=0, col=0, rowspan=3, angle=-90)
         self.up_magnet_view = MagnetView(magnet_list=orbit, direction="up")
-        self.up_magnet_view.hideAxis('left')
+        #self.up_magnet_view.hideAxis('left')
         self.up_magnet_view.hideAxis('bottom')
         self.ci.layout.setRowStretchFactor(0,3)
         self.plotItem = self.addPlot(name=name, row=0, col=1)
         self.ci.layout.setRowStretchFactor(1,0)
         self.down_magnet_view = MagnetView(magnet_list=orbit, direction="down")
-        self.down_magnet_view.hideAxis('left')
+        #self.down_magnet_view.hideAxis('left')
         self.up_magnet_view.setXLink(self.plotItem)
         self.down_magnet_view.setXLink(self.plotItem)
         self.ci.layout.setRowStretchFactor(2,0)
@@ -156,6 +156,7 @@ class OrbitView(GraphicsLayoutWidget):
         if enabled:
             self.addItem(self.up_magnet_view, row=1, col=1)
             self.addItem(self.down_magnet_view, row=2, col=1)
+            self.set_magnet_range()
             self.up_magnet_view.setXLink(self.plotItem)
             self.down_magnet_view.setXLink(self.plotItem)
         else:
@@ -165,11 +166,18 @@ class OrbitView(GraphicsLayoutWidget):
     def set_magnet_list(self, magnet_list):
         self.up_magnet_view.set_magnets(magnet_list, reset_range=False)
         self.down_magnet_view.set_magnets(magnet_list, reset_range=False)
+        self.set_magnet_range()
 
     @pyqtSlot(bool)
     def reset_range(self, checked=False):
         self.plotItem.enableAutoRange(axis=ViewBox.XAxis)
         self.plotItem.setYRange(self.ymin, self.ymax)
+        
+        
+    def set_magnet_range(self):
+        extent = self.orbit.zmax() - self.orbit.zmin()
+        self.up_magnet_view.setLimits(xMin=self.orbit.zmin()-(0.02*extent), xMax=self.orbit.zmax()+(0.02*extent))
+        self.down_magnet_view.setLimits(xMin=self.orbit.zmin()-(0.02*extent), xMax=self.orbit.zmax()+(0.02*extent))
 
     def wheelEvent(self, event):
         if event.modifiers() == Qt.ShiftModifier:

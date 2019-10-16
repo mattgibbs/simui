@@ -19,7 +19,7 @@ class MagnetView(PlotItem):
 		self.ymax = 1.0
 		self.yminlimit = self.ymin #This is the limit on the Y axis range.
 		self.ymaxlimit = self.ymax #This is the upper limit on the Y axis range.
-		self.setLimits(minYRange=abs(self.ymaxlimit - self.yminlimit), maxYRange=abs(self.ymaxlimit - self.yminlimit))
+		#self.setLimits(minYRange=abs(self.ymaxlimit - self.yminlimit), maxYRange=abs(self.ymaxlimit - self.yminlimit))
 		self.magnet_buttons = []
 		self.needs_initial_range = True
 		self.magnet_list = None
@@ -40,8 +40,8 @@ class MagnetView(PlotItem):
 		else:
 			direction = -1.0
 		self.clear_magnet_buttons()
-		extent = abs(magnet_list.zmax() - magnet_list.zmin())
-		self.setLimits(xMin=magnet_list.zmin()-(0.02*extent), xMax=magnet_list.zmax()+(0.02*extent))
+		#extent = abs(magnet_list.zmax() - magnet_list.zmin())
+		#self.setLimits(xMin=magnet_list.zmin()-(0.02*extent), xMax=magnet_list.zmax()+(0.02*extent))
 		self.enableAutoRange(enable=False)
 		for magnet in magnet_list:
 			button = MagnetButtonItem(magnet=magnet, size=10.0, direction=direction)
