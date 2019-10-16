@@ -6,6 +6,7 @@ from orbit_view import OrbitView
 from orbit import Orbit
 from steering_magnets import MagnetList
 from qtpy.QtWidgets import QVBoxLayout, QApplication, QProgressBar, QLabel
+from qtpy.QtGui import QPixmap
 from qtpy.QtCore import QTimer, Slot, Qt
 
 class SteeringDisplay(Display):
@@ -41,6 +42,13 @@ class SteeringDisplay(Display):
         self.orbit_view.hide()
         self.layout().addWidget(self.orbit_view)
         self.layout().setStretchFactor(self.orbit_view, 1)
+        self.help_text = QLabel(self)
+        help_image = QPixmap()
+        help_image.load(os.path.join(os.path.dirname(os.path.abspath(__file__)),"help.png"))
+        help_image = help_image.scaledToHeight(200, Qt.SmoothTransformation)
+        self.help_text.setPixmap(help_image)
+        self.layout().addWidget(self.help_text)
+        self.layout().setStretchFactor(self.help_text, 1)
         QTimer.singleShot(50,self.initialize_orbit)
         
     @Slot()
