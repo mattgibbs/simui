@@ -8,8 +8,9 @@ from operator import attrgetter
 import json
 
 class Magnet(object):
-    kick_delta = 0.0002 #in kG
+    #kick_delta = 0.0002 #in kG
     def __init__(self, device_name, z_pos):
+        self.kick_delta = 0.0004
         self.device_name = device_name
         self.z = z_pos
         self.bctrl_pv = Pv("{}:BCTRL".format(device_name))
