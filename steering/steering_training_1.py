@@ -1,6 +1,5 @@
 import os
 import sys
-import zmq
 from pydm import Display
 from orbit_view import OrbitView
 from orbit import Orbit
